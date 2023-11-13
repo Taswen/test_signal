@@ -26,7 +26,7 @@ public partial class Game : Node
         // record index into player 
         for (int i = 0; i < playerOrder.Count; i++)
         {
-            players[playerOrder[i]].index = i;
+            players[i].index = i;
         }
 
     }

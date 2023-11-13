@@ -5,7 +5,7 @@ using Godot;
 public partial class Player : Node
 {
 
-    public int index;
+    public int index; // player index
     public Broadcast broadcast;
     public void ConnectToGame(Broadcast gbroadcast)
     {
